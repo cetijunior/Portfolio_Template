@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-
+import styles from '../styles/About.module.css';
 import React from 'react'
 import { Cursor, useTypewriter } from 'react-simple-typewriter'
 import BackgroundCircles from './BackgroundCircles';
@@ -37,19 +37,19 @@ function Hero({ }: Props) {
 
                 <div className='pt-5'>
                     <Link className='transition-opacity duration-150' href="#about">
-                        <button className='heroButton'>About</button>
+                        <button className={styles.heroButton}>About</button>
                     </Link>
                     <Link href="#experience">
-                        <button className='heroButton'>Experience</button>
+                        <button className={styles.heroButton}>Experience</button>
                     </Link>
                     <Link href="#skills">
-                        <button className='heroButton'>Skills</button>
+                        <button className={styles.heroButton}>Skills</button>
                     </Link>
                     <Link href="#projects">
-                        <button className='heroButton'>Projects</button>
+                        <button className={styles.heroButton}>Projects</button>
                     </Link>
                     <Link href="#contact">
-                        <button className='heroButton'>Contact</button>
+                        <button className={styles.heroButton}>Contact</button>
                     </Link>
                 </div>
             </div>
