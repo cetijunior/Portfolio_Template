@@ -19,28 +19,42 @@ const Home: NextPage = () => {
         <title>CJ.Portfolioo</title>
         {/* insert Icon */}
       </Head>
+
+
       {/* Header */}
       <Headeri />
+
+
       {/*Hero */}
       <section id='hero' className='snap-start'>
         <Hero />
       </section>
+
+
       {/* About */}
       <section id="about" className='snap-center'>
         <About />
       </section>
+
+
       {/* Exp */}
       <section id='experience' className='snap-center'>
         <Experience />
       </section>
+
+
       {/* Skills */}
       <section id='skills' className='snap-center'>
         <Skills />
       </section>
+
+
       {/* Projects */}
       <section id='projects' className='snap-center'>
         <Projects />
       </section>
+
+
       {/* Contact Me */}
       <section id='contact' className='snap-center'>
         <ContactMe />
