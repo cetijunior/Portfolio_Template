@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import type { NextPage } from 'next'
-import Header from '@/components/Header'
+import Navbar from '@/components/Navbar'
 import Hero from '@/components/Hero'
 import Head from 'next/head'
 import About from '@/components/About'
@@ -20,7 +20,8 @@ const Home: NextPage = () => {
         {/* insert Icon */}
       </Head>
       {/* Header */}
-      <Header />
+      <Navbar />
+
       {/*Hero */}
       <section id='hero' className='snap-start'>
         <Hero />

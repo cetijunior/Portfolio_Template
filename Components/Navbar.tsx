@@ -5,9 +5,9 @@ import Link from 'next/link';
 
 type Props = {}
 
-function Header({ }: Props) {
+function Navbar({ }: Props) {
     return (
-        <header className='sticky top-0 flex p-5 items-start justify-between max-w-7xl mx-auto z-20
+        <div className='sticky top-0 flex p-5 items-start justify-between max-w-7xl mx-auto z-20
                             xl:items-center'>
             <motion.div
                 initial={{
@@ -85,8 +85,8 @@ function Header({ }: Props) {
                     <p className='uppercase hidden md:inline-flex text-sm transition-all hover:text-[#F7AB0A] text-gray-400'>Get In Touch!</p>
                 </motion.div>
             </Link>
-        </header>
+        </div>
     )
 }
 
-export default Header
+export default Navbar
