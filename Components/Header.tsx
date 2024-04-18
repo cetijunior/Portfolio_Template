@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 type Props = {}
 
-function Headeri({ }: Props) {
+function Header({ }: Props) {
     return (
         <header className='sticky top-0 flex p-5 items-start justify-between max-w-7xl mx-auto z-20
                             xl:items-center'>
@@ -89,4 +89,4 @@ function Headeri({ }: Props) {
     )
 }
 
-export default Headeri
+export default Header
