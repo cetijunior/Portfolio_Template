@@ -1,8 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
 import type { NextPage } from 'next'
-import Head from 'next/head'
 import Header from '@/components/Header'
 import Hero from '@/components/Hero'
+import Head from 'next/head'
 import About from '@/components/About'
 import Experience from '@/components/Experience'
 import Skills from '@/components/Skills'
