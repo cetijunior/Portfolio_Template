@@ -1,13 +1,13 @@
 /* eslint-disable @next/next/no-img-element */
 import type { NextPage } from 'next'
-import Header from '@/Components/Header'
-import Hero from '@/Components/Hero'
 import Head from 'next/head'
-import About from '@/Components/About'
-import Experience from '@/Components/Experience'
-import Skills from '@/Components/Skills'
-import Projects from '@/Components/Projects'
-import ContactMe from '@/Components/ContactMe'
+import Headeri from '@/components/Header'
+import Hero from '@/components/Hero'
+import About from '@/components/About'
+import Experience from '@/components/Experience'
+import Skills from '@/components/Skills'
+import Projects from '@/components/Projects'
+import ContactMe from '@/components/ContactMe'
 import Link from 'next/link'
 
 
@@ -20,7 +20,7 @@ const Home: NextPage = () => {
         {/* insert Icon */}
       </Head>
       {/* Header */}
-      <Header />
+      <Headeri />
       {/*Hero */}
       <section id='hero' className='snap-start'>
         <Hero />
