@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 type Props = {}
 
-function Navbar({ }: Props) {
+const Navbar = () => {
     return (
         <div className='sticky top-0 flex p-5 items-start justify-between max-w-7xl mx-auto z-20
                             xl:items-center'>
