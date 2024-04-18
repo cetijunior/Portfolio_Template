@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-
+import '@/styles/globals.css'
 import type { NextPage } from 'next'
 import Header from '@/Components/Header'
 import Hero from '@/Components/Hero'
